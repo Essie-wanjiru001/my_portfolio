@@ -1,0 +1,89 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Lexend Deca', sans-serif; /* Specify Lexend Deca as the primary font */
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-top: 50px; /* Adjust as needed */
+}
+
+/* Header styles */
+header {
+    background-color: #007bff; /* Change to your preferred color */
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Lexend Deca', sans-serif; /* Specify Lexend Deca for header text */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-family: 'Lexend Deca', sans-serif; /* Specify Lexend Deca for nav links */
+}
+
+header nav ul li a:hover {
+    color: #cceeff; /* Change to your preferred hover color */
+}
+
+/* Main content styles */
+section {
+    padding: 50px 20px;
+    background-color: #111827; /* Change to your preferred background color */
+    margin-top: 80px; /* Adjust to push content below fixed header */
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #fff; /* Change to your preferred text color */
+    font-family: 'Lexend Deca', sans-serif; /* Specify Lexend Deca for section headings */
+}
+
+section p {
+    margin-bottom: 20px;
+    color: #ccc; /* Change to your preferred text color */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007bff; /* Change to your preferred color */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Lexend Deca', sans-serif; /* Specify Lexend Deca for footer text */
+}
