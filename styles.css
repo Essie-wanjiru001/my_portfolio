@@ -10,7 +10,7 @@ body {
     font-family: 'Lexend Deca', sans-serif; /* Specify Lexend Deca as the primary font */
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #333;
+    color: #FFFFFF; /* Set text color to white */
     padding-top: 50px; /* Adjust as needed */
 }
 
@@ -66,15 +66,56 @@ section {
 }
 
 section h2 {
-    margin-bottom: 20px;
-    color: #fff; /* Change to your preferred text color */
-    font-family: 'Lexend Deca', sans-serif; /* Specify Lexend Deca for section headings */
+    margin-bottom: 20px; /* Add spacing between headings and texts */
+    color: #FFFFFF; /* Set text color to white */
 }
 
 section p {
-    margin-bottom: 20px;
-    color: #ccc; /* Change to your preferred text color */
+    margin-bottom: 20px; /* Add spacing between paragraphs */
+    color: #FFFFFF; /* Set text color to white */
 }
+
+/* Introduction section styles */
+#introduction {
+    display: flex;
+    align-items: center;
+}
+
+.introduction-content {
+    flex: 1;
+    padding-right: 20px; /* Add some spacing between text and image */
+}
+
+.introduction-image img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-height: 100%;
+}
+
+/* About section styles */
+#about-me {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Adjust the column sizes */
+    align-items: center;
+    gap: 20px; /* Add some gap between the columns */
+}
+
+.about-content {
+    grid-column: 2 / span 1; /* Text content spans from the second column */
+}
+
+/* Skills section styles */
+#skills {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Adjust the column sizes */
+    align-items: center;
+    gap: 20px; /* Add some gap between the columns */
+}
+
+.skills-content {
+    grid-column: 2 / span 1; /* Text content spans from the second column */
+}
+
+
 
 /* Footer styles */
 footer {
