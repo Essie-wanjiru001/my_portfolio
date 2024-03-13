@@ -16,7 +16,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #007bff; /* Change to your preferred color */
+    background-color: #35091C; /* Change to your preferred color */
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -80,7 +80,7 @@ section p {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #007bff; /* Change to your preferred color */
+    background-color: #35091C; /* Change to your preferred color */
     color: #fff;
     position: relative;
     bottom: 0;
