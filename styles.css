@@ -1,22 +1,19 @@
-/* Reset default browser styles */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Body styles */
 body {
-    font-family: 'Lexend Deca', sans-serif; /* Specify Lexend Deca as the primary font */
+    font-family: 'Lexend Deca', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #FFFFFF; /* Set text color to white */
-    padding-top: 50px; /* Adjust as needed */
+    color: #FFFFFF;
+    padding-top: 50px;
 }
 
-/* Header styles */
 header {
-    background-color: #35091C; /* Change to your preferred color */
+    background-color: #35091C;
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -28,7 +25,7 @@ header h1 {
     color: #fff;
     text-align: center;
     margin-bottom: 0;
-    font-family: 'Lexend Deca', sans-serif; /* Specify Lexend Deca for header text */
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 header nav ul {
@@ -51,31 +48,29 @@ header nav ul li a {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
-    font-family: 'Lexend Deca', sans-serif; /* Specify Lexend Deca for nav links */
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 header nav ul li a:hover {
-    color: #cceeff; /* Change to your preferred hover color */
+    color: #cceeff;
 }
 
-/* Main content styles */
 section {
     padding: 50px 20px;
-    background-color: #111827; /* Change to your preferred background color */
-    margin-top: 80px; /* Adjust to push content below fixed header */
+    background-color: #111827;
+    margin-top: 80px;
 }
 
 section h2 {
-    margin-bottom: 20px; /* Add spacing between headings and texts */
-    color: #FFFFFF; /* Set text color to white */
+    margin-bottom: 20px;
+    color: #FFFFFF;
 }
 
 section p {
-    margin-bottom: 20px; /* Add spacing between paragraphs */
-    color: #FFFFFF; /* Set text color to white */
+    margin-bottom: 20px;
+    color: #FFFFFF;
 }
 
-/* Introduction section styles */
 #introduction {
     display: flex;
     align-items: center;
@@ -83,103 +78,115 @@ section p {
 
 .introduction-content {
     flex: 1;
-    padding-right: 20px; /* Add some spacing between text and image */
+    padding-right: 20px;
 }
 
 .introduction-image img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-width: 100%;
     max-height: 100%;
 }
 
-/* About section styles */
 #about-me {
     display: grid;
-    grid-template-columns: 1fr 3fr; /* Adjust the column sizes */
+    grid-template-columns: 1fr 3fr;
     align-items: center;
-    gap: 20px; /* Add some gap between the columns */
+    gap: 20px;
 }
 
 .about-content {
-    grid-column: 2 / span 1; /* Text content spans from the second column */
+    grid-column: 2 / span 1;
 }
 
-/* Skills section styles */
 #skills {
     display: grid;
-    grid-template-columns: 1fr 3fr; /* Adjust the column sizes */
+    grid-template-columns: 1fr 3fr;
     align-items: center;
-    gap: 20px; /* Add some gap between the columns */
+    gap: 20px;
 }
 
 .skills-content {
-    grid-column: 2 / span 1; /* Text content spans from the second column */
+    grid-column: 2 / span 1;
 }
 
-/* Projects section styles */
 #projects {
     display: grid;
-    grid-template-columns: 1fr 3fr; /* Adjust the column sizes */
+    grid-template-columns: 1fr 3fr;
     align-items: center;
-    gap: 20px; /* Add some gap between the columns */
+    gap: 20px;
 }
 
 .project-heading {
-    grid-column: 1 / span 1; /* Heading spans the first column */
-    color: #FFFFFF; /* Set text color to white */
+    grid-column: 1 / span 1;
+    color: #FFFFFF;
 }
 
 .project-description {
-    grid-column: 2 / span 1; /* Description spans the second column */
-    color: #FFFFFF; /* Set text color to white */
+    grid-column: 2 / span 1;
+    color: #FFFFFF;
 }
 
 .github-link {
-    grid-column: 1 / -1; /* Link spans all columns */
-    text-align: center; /* Align link text at the center */
+    grid-column: 1 / -1;
+    text-align: center;
 }
 
 .github-link a {
-    color: #007bff; /* Set link color to blue */
-    text-decoration: none; /* Remove default underline */
+    color: #007bff;
+    text-decoration: none;
 }
 
 .github-link a img {
-    margin-right: 5px; /* Add some spacing between icon and text */
-    width: 20px; /* Adjust icon size as needed */
-    height: 20px; /* Adjust icon size as needed */
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
 }
 
 #contacts {
-    display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    gap: 20px;
 }
 
 .contacts-content {
-    display: flex;
-    justify-content: center; /* Center the icons horizontally */
-    align-items: center; /* Center the icons vertically */
+    grid-column: 1 / -1;
 }
 
-.gmail,
-.linkedin {
-    margin: 0 20px; /* Add spacing between icons */
+.contacts-heading h2 {
+    margin-bottom: 10px;
+    color: #FFFFFF;
 }
 
-.gmail img,
-.linkedin img {
-    width: 40px; /* Set the size of the icons */
-    height: 40px; /* Set the size of the icons */
+.contacts-description p {
+    margin-bottom: 10px;
+    color: #FFFFFF;
 }
 
-/* Footer styles */
+.contact-info {
+    grid-column: 2 / -1;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+.contact-info li a {
+    color: #FFFFFF;
+}
+
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #35091C; /* Change to your preferred color */
+    background-color: #35091C;
     color: #fff;
     position: relative;
     bottom: 0;
     width: 100%;
-    font-family: 'Lexend Deca', sans-serif; /* Specify Lexend Deca for footer text */
+    font-family: 'Lexend Deca', sans-serif;
 }
