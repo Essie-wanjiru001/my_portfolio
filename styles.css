@@ -7,7 +7,7 @@
 body {
     font-family: 'Lexend Deca', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #111827;
     color: #FFFFFF;
     padding-top: 50px;
 }
@@ -57,19 +57,18 @@ header nav ul li a:hover {
 
 section {
     padding: 50px 20px;
-    background-color: #111827;
     margin-top: 80px;
+    background-color: transparent; /* Set section background color to transparent */
 }
 
 section h2 {
     margin-bottom: 20px;
-    color: #FFFFFF;
 }
 
 section p {
     margin-bottom: 20px;
-    color: #FFFFFF;
 }
+
 
 #introduction {
     display: flex;
